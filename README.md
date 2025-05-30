@@ -150,7 +150,7 @@ int main() {
     scanf("%d", &num_rows);
     printf("Enter number of rows: %d\n",num_rows);
     int midpoint = (2 * num_rows - 1) / 2;
-    for (int i = 1; i <= num_rows; i++) {
+    for (int i = 1; i <= 5; i++) {
         int j;
         for (j = 0; j < num_rows - i; j++) {
             printf(" ");
